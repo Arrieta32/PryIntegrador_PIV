@@ -7,10 +7,10 @@ export default function MissionWall({ squads }) {
         <div className="text-center mb-12 animate-rise">
           <p className="font-script text-2xl sm:text-3xl text-neon-orange mb-2">Respect +30</p>
           <h2 className="font-display text-3xl sm:text-5xl uppercase tracking-tight">
-            Mission Passed — All 30/30 Squads
+            Mission Passed — 30/30
           </h2>
           <p className="mt-3 text-white/60 max-w-xl mx-auto">
-            Cada equipo alcanzó la calificación máxima. Este es el muro de honor de Programación IV.
+            Todos los equipos lograron la calificación máxima. Muro de honor de Programación IV.
           </p>
         </div>
 
