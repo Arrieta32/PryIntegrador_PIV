@@ -25,7 +25,7 @@ export default function AudioToggle() {
       type="button"
       onClick={toggle}
       title={on ? 'Silenciar synthwave' : 'Reproducir Vice City synth'}
-      className={`fixed bottom-24 right-5 z-40 h-12 w-12 rounded-full border flex items-center justify-center transition shadow-lg ${
+      className={`fixed bottom-5 right-5 z-40 h-12 w-12 rounded-full border flex items-center justify-center transition shadow-lg ${
         on
           ? 'border-neon-cyan bg-neon-cyan/20 text-neon-cyan animate-pulseGlow'
           : 'border-white/20 bg-void/80 text-white/70 hover:border-neon-magenta hover:text-neon-magenta'
